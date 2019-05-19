@@ -3,7 +3,13 @@ import SongList from './SongList.js';
 
 const App = () => {
     return (
-        <SongList />
+        <div className="ui container grid">
+            <div className="row">
+                <div className="column eight wide">
+                    <SongList />
+                </div>
+            </div>
+        </div>
     );
 }
 
